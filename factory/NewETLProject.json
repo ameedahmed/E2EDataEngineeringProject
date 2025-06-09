@@ -1,0 +1,9 @@
+{
+	"name": "NewETLProject",
+	"location": "germanywestcentral",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "10370633-6516-403a-97aa-dace566dc800",
+		"tenantId": "fee3b916-01c1-4987-a646-e193432b9eaa"
+	}
+}
