@@ -1,0 +1,45 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "NewETLProject"
+		},
+		"AzureBlobStorage1_connectionString": {
+			"value": ""
+		},
+		"AzureDataLakeStorage1_accountKey": {
+			"value": ""
+		},
+		"AzureDataLakeStorageLinkedServices_accountKey": {
+			"value": ""
+		},
+		"RestService1_password": {
+			"value": ""
+		},
+		"AzureDataLakeStorage1_properties_typeProperties_url": {
+			"value": "https://newetlproject.dfs.core.windows.net/"
+		},
+		"AzureDataLakeStorageLinkedServices_properties_typeProperties_url": {
+			"value": "https://newetlproject.dfs.core.windows.net/"
+		},
+		"AzureKeyVault1_properties_typeProperties_baseUrl": {
+			"value": "https://newetlprojectKV.vault.azure.net/"
+		},
+		"RestService1_properties_typeProperties_url": {
+			"value": "https://www.kaggle.com/api/v1/datasets/download"
+		},
+		"RestService1_properties_typeProperties_userName": {
+			"value": "ameedahmed"
+		},
+		"RestaurantHttpServer1_properties_typeProperties_url": {
+			"value": "https://raw.githubusercontent.com/ameedahmed/E2EDataEngineeringProject/refs/heads/main/Restaurant%20reviews.csv"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
