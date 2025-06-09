@@ -1,0 +1,12 @@
+{
+	"name": "RestaurantHttpServer1",
+	"properties": {
+		"annotations": [],
+		"type": "HttpServer",
+		"typeProperties": {
+			"url": "https://raw.githubusercontent.com/ameedahmed/E2EDataEngineeringProject/refs/heads/main/Restaurant%20reviews.csv",
+			"enableServerCertificateValidation": true,
+			"authenticationType": "Anonymous"
+		}
+	}
+}
